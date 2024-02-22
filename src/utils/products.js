@@ -742,22 +742,22 @@ export const products = [
   },
   {
     id: "22",
-    productName: "JBL Headphones",
+    productName: "Sony Headphones",
     imgUrl: wireless02,
     category: "wireless",
     price: 169,
     shortDesc:
-      "Experience superior comfort and style with the JBL Headphones.",
+      "Experience superior comfort and style with the sony Headphones.",
     description:
-      "Elevate your listening experience with the JBL Headphones. Designed for comfort and style, these headphones deliver premium sound quality and sleek design. Whether you're commuting, working out, or just relaxing at home, the JBL Headphones are the perfect companion. Step up your audio game with the JBL Headphones.",
+      "Elevate your listening experience with the sony Headphones. Designed for comfort and style, these headphones deliver premium sound quality and sleek design. Whether you're commuting, working out, or just relaxing at home, the sony Headphones are the perfect companion. Step up your audio game with the sony Headphones.",
     reviews: [
       {
         rating: 4.8,
-        text: "The JBL Headphones are excellent. They offer great sound quality and are stylish and comfortable to wear.",
+        text: "The sony Headphones are excellent. They offer great sound quality and are stylish and comfortable to wear.",
       },
       {
         rating: 4.9,
-        text: "I'm extremely satisfied with the JBL Headphones. They provide exceptional value for money and sound amazing.",
+        text: "I'm extremely satisfied with the sony Headphones. They provide exceptional value for money and sound amazing.",
       },
     ],
     avgRating: 4.8,
