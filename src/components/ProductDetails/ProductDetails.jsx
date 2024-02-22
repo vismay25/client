@@ -44,7 +44,7 @@ const ProductDetails = ({ selectedProduct }) => {
             <input
               className="qty-input"
               type="number"
-              min={0}
+              min={1}
               placeholder="Qty"
               value={quantity}
               onChange={handleQuantityChange}
