@@ -29,10 +29,18 @@ const NavBar = () => {
       className={isFixed ? "navbar fixed" : "navbar"}
     >
       <Container className="navbar-container">
-        <Navbar.Brand to="/">
-          <ion-icon name="bag"></ion-icon>
-          <h1 className="logo">Quickmart</h1>
+        <Navbar.Brand>
+          <Link
+            aria-label="Go to Home Page"
+            className="navbar-link"
+            to="/"
+            onClick={() => setExpand(false)}
+          >
+            <ion-icon name="bag" style={{ color: "black" }}></ion-icon>
+            <h1 className="logo">Quickmart</h1>
+          </Link>
         </Navbar.Brand>
+
         {/* Media cart and toggle */}
         <div className="d-flex">
           <div className="media-cart">
