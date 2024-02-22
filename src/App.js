@@ -5,6 +5,9 @@ import NavBar from "./components/Navbar/Navbar";
 import Loader from "./components/Loader/Loader";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Signup from "./components/Signup";
+import Login from "./components/Login";
+
 const Home = lazy(() => import("./pages/Home"));
 const Shop = lazy(() => import("./pages/Shop"));
 const Cart = lazy(() => import("./pages/Cart"));
@@ -27,6 +30,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/:id" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
